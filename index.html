@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231017210151">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo logo">
+					<div class="logo__image">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#logo"></use>
+						</svg>
+					</div>
+					<div class="logo__label color-text color-text--orange">family</div>
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" data-goto=".page__reservation" data-goto-header data-goto-speed="800" class="menu__link color-text color-text--orange">Reservation</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto=".page__menu" data-goto-header data-goto-speed="800" class="menu__link color-text color-text--orange">Menu</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto=".page__offer" data-goto-header data-goto-speed="800" class="menu__link color-text color-text--orange">Specials & Coupons</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto=".footer" data-goto-header data-goto-speed="800" class="menu__link color-text color-text--orange">Contact Us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section data-watch="navigator" class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__theme-mode theme-mode">
+						<button type="button" class="theme-mode__button">
+							<svg class="theme-mode__svg theme-mode__svg--sun">
+								<use xlink:href="img/icons/icons.svg#sun"></use>
+							</svg>
+							<svg class="theme-mode__svg theme-mode__svg--moon">
+								<use xlink:href="img/icons/icons.svg#moon"></use>
+							</svg>
+						</button>
+						<button type="button" class="theme-mode__reset"></button>
+					</div>
+					<div class="hero__body">
+						<div data-watch class="hero__content">
+							<h1 class="hero__title color-text color-text--orange">Pizza family</h1>
+							<div class="hero__text color-text color-text--orange">
+								<p>people disappoint,</p>
+								<p>but pizza never does.</p>
+							</div>
+							<form data-ajax data-dev id="search-location" action="#" class="hero__search-location search-location">
+								<div class="search-location__location">
+									<input data-validate data-required autocomplete="on" type="text" name="form[]" data-error="Error" placeholder="" class="search-location__input input">
+									<button type="button" class="search-location__button button button--search button--fw">
+										<svg>
+											<use xlink:href="img/icons/icons.svg#search-location"></use>
+										</svg>
+										<span>Search Location</span>
+									</button>
+								</div>
+								<button type="submit" class="search-location__submit button button--submit">Try now</button>
+							</form>
+						</div>
+						<div class="hero__image">
+							<img src="img/hero/filter.svg" alt="Image">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__menu menu-section">
+				<div class="menu-section__container">
+					<div class="menu-section__body">
+						<h2 class="menu-section__title color-text color-text--orange">Menu</h2>
+						<div class="menu-section__content">
+							<ul class="menu-section__list">
+								<li class="menu-section__item item-menu">
+									<h3 class="item-menu__title">Pizza by the slice</h3>
+									<ul class="item-menu__list">
+										<li class="item-menu__item">
+											<div class="item-menu__name">Pizza style pizza</div>
+											<div class="item-menu__gap"></div>
+											<div class="item-menu__price">$<span>4.2</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Pizza style</div>
+											<div class="item-menu__gap"></div>
+											<div class="item-menu__price">$<span>4.2</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Pizza</div>
+											<div class="item-menu__gap"></div>
+											<div class="item-menu__price">$<span>4.2</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Pizza style</div>
+											<div class="item-menu__gap"></div>
+											<div class="item-menu__price">$<span>4.2</span></div>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-section__item item-menu">
+									<h3 class="item-menu__title">Pizza by the slice</h3>
+									<ul class="item-menu__list">
+										<li class="item-menu__item">
+											<div class="item-menu__name">Pizza style</div>
+											<div class="item-menu__gap"></div>
+											<div class="item-menu__price">$<span>4.2</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Pizza</div>
+											<div class="item-menu__gap"></div>
+											<div class="item-menu__price">$<span>4.2</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Pizza style</div>
+											<div class="item-menu__gap"></div>
+											<div class="item-menu__price">$<span>4.2</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Pizza style pizza</div>
+											<div class="item-menu__gap"></div>
+											<div class="item-menu__price">$<span>4.2</span></div>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-section__item menu-section__item--description item-menu">
+									<h3 class="item-menu__title">Gourmet Pizza</h3>
+									<ul class="item-menu__list">
+										<li class="item-menu__item">
+											<div class="item-menu__name">Classic pizza</div>
+											<div class="item-menu__description">Pizza comes with all tapping that you describe in this section</div>
+											<div class="item-menu__price">$ <span>19.99</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Classic pizza pizza</div>
+											<div class="item-menu__description">Pizza comes with all tapping that you describe in this section</div>
+											<div class="item-menu__price">$ <span>19.99</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Classic pizza</div>
+											<div class="item-menu__description">Pizza comes with all tapping that you describe in this section. Pizza comes with all tapping that you describe in this section</div>
+											<div class="item-menu__price">$ <span>19.99</span></div>
+										</li>
+										<li class="item-menu__item">
+											<div class="item-menu__name">Classic pizza</div>
+											<div class="item-menu__description">Pizza comes with all tapping that you describe in this section</div>
+											<div class="item-menu__price">$ <span>19.99</span></div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="menu-section__more button button--more">Explore more</a>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__offer offer-section">
+				<div class="offer-section__container">
+					<div class="offer-section__body">
+						<div class="offer-section__title-block">
+							<h2 class="offer-section__title color-text color-text--orange">
+								pizza <span>of the month</span>
+							</h2>
+							<h2 class="offer-section__title color-text color-text--orange">
+								<span>the big</span> BIRD
+							</h2>
+						</div>
+						<div class="offer-section__content">
+							<ul class="offer-section__list">
+								<li class="offer-section__item">Meat Pizza</li>
+								<li class="offer-section__item">Margarita Pizza</li>
+								<li class="offer-section__item">Hawaiian Pizza</li>
+								<li class="offer-section__item">Pepperoni Pizza</li>
+								<li class="offer-section__item">Veggie Pizza</li>
+								<li class="offer-section__item">Cheese Pizza</li>
+							</ul>
+							<div class="offer-section__action">
+								<button data-popup="#popup-order" type="button" class="offer-section__button offer-section__button--order button button--offer">Order online now</button>
+								<button data-goto=".page__menu" data-goto-header data-goto-speed="800" type="button" class="offer-section__button offer-section__button--see button button--offer">See our menu</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__reservation reservation-section">
+				<div class="reservation-section__container">
+					<div class="reservation-section__body">
+						<div class="reservation-section__terms-notes terms-notes">
+							<a href="#" class="terms-notes__link">*terms & conditions</a>
+							<span> applied.</span>
+						</div>
+						<form data-ajax data-dev id="reservation" action="#" class="reservation-section__form form-reservation">
+							<h4 class="form-reservation__title">reservation</h4>
+							<div class="form-reservation__info">
+								<div class="form-reservation__order">
+									<div class="form-reservation__text">Book online or give us a call on</div>
+									<a href="tel:+911111222333" class="form-reservation__tel">+91 1111 222 333</a>
+								</div>
+								<div class="form-reservation__working-hours">Between 9:30 am - 10:00 pm</div>
+							</div>
+							<ul class="form-reservation__list">
+								<li class="form-reservation__item">
+									<label for="reservation-name" class="form-reservation__label">Name</label>
+									<input data-validate data-required id="reservation-name" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="" class="form-reservation__input input input--reservation">
+								</li>
+								<li class="form-reservation__item">
+									<label for="reservation-email" class="form-reservation__label">E-Mail</label>
+									<input data-validate data-required="email" id="reservation-email" autocomplete="off" type="email" name="form[]" data-error="Error" placeholder="" class="form-reservation__input input input--reservation">
+								</li>
+								<li class="form-reservation__item">
+									<label for="reservation-number" class="form-reservation__label">People number</label>
+									<input data-validate data-required id="reservation-number" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="" class="form-reservation__input input input--reservation">
+								</li>
+								<li class="form-reservation__item">
+									<label for="reservation-date" class="form-reservation__label">Date & time</label>
+									<input data-validate data-required id="reservation-date" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="" class="form-reservation__input input input--reservation">
+								</li>
+							</ul>
+							<button data-popup="#popup-reservation" type="submit" class="form-reservation__submit button button--reservation">Send mail</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<button data-goto=".page__hero" data-goto-speed="800" type="button" class="page__up">
+				&#9650;
+			</button>
+		</main>
+		<footer data-watch="navigator" class="footer">
+			<div class="footer__container">
+				<a href="index.html" class="footer__logo logo">
+					<div class="logo__image">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#logo"></use>
+						</svg>
+					</div>
+					<div class="logo__label color-text color-text--orange">family</div>
+				</a>
+				<ul class="footer__contacts contacts">
+					<li class="contacts__item">
+						<div class="contacts__label color-text color-text--orange">Follow us</div>
+						<ul class="contacts__socials socials">
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="contacts__item">
+						<div class="contacts__label color-text color-text--orange">Send us a message</div>
+						<ul class="contacts__socials socials">
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#telegram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#whatsapp"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#viber"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="contacts__item">
+						<div class="contacts__label color-text color-text--orange">Come to us</div>
+						<div class="contacts__address">10220 Alondra Blvd, Bellflower, CA 90706, USA</div>
+					</li>
+				</ul>
+				<div class="footer__copyright">© all rights reserved 2023</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-order" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__container">
+					<div class="popup__header header-popup">
+						<a href="index.html" class="header-popup__logo logo">
+							<div class="logo__image">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#logo"></use>
+								</svg>
+							</div>
+							<div class="logo__label color-text color-text--orange">family</div>
+						</a>
+						<div class="header-popup__action">
+							<a href="#" class="header-popup__button">
+								<div class="header-popup__icon">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#circle"></use>
+									</svg>
+								</div>
+								<span>Help</span>
+							</a>
+							<button type="button" class="header-popup__button">
+								<span class="header-popup__icon">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#user-plus"></use>
+									</svg>
+								</span>
+								<span>Sign in</span>
+							</button>
+						</div>
+					</div>
+					<div class="popup__body">
+						<div data-spollers data-one-spoller data-spollers-speed="800" class="popup__spollers spollers-popup">
+							<div class="spollers-popup__block">
+								<details class="spollers-popup__item">
+									<summary data-spoller-close class="spollers-popup__title">Account</summary>
+									<div class="spollers-popup__body">
+										<div class="spollers-popup__text">
+											To place your order now, log in to your existing account or sign up.
+										</div>
+										<div class="spollers-popup__actions">
+											<div class="spollers-popup__btn">
+												<div class="spollers-popup__label">Have an account?</div>
+												<button type="button" class="spollers-popup__button">Log in</button>
+											</div>
+											<div class="spollers-popup__btn">
+												<div class="spollers-popup__label">New to Pizza Family?</div>
+												<button type="button" class="spollers-popup__button">Sign in</button>
+											</div>
+										</div>
+									</div>
+								</details>
+								<div class="spollers-popup__icon">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#users"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="spollers-popup__block">
+								<details class="spollers-popup__item">
+									<summary data-spoller-close class="spollers-popup__title">Delivery address</summary>
+									<div class="spollers-popup__body">
+										<form id="delivery-address" action="#" class="spollers-popup__delivery">
+											<div class="spollers-popup__line">
+												<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="" class="spollers-popup__input input">
+											</div>
+											<button type="submit" class="spollers-popup__submit button">Sent</button>
+										</form>
+									</div>
+								</details>
+								<div class="spollers-popup__icon">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#location"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="spollers-popup__block">
+								<details class="spollers-popup__item">
+									<summary data-spoller-close class="spollers-popup__title">Payment</summary>
+									<div class="spollers-popup__body">
+										<ul class="spollers-popup__payment">
+											<li class="spollers-popup__method">
+												<div class="spollers-popup__sub-title">Online payment through the service</div>
+												<div class="spollers-popup__description">
+													Pay for your order online through the service
+												</div>
+											</li>
+											<li class="spollers-popup__method">
+												<div class="spollers-popup__sub-title">Payment by invoice</div>
+												<div class="spollers-popup__description">
+													Pay for your order in cash or by card upon receipt by the courier.
+												</div>
+											</li>
+											<li class="spollers-popup__method">
+												<div class="spollers-popup__sub-title">Payment in cash upon receipt</div>
+												<div class="spollers-popup__description">
+													We work without any prepayments, so you don't have any doubts.
+												</div>
+											</li>
+										</ul>
+									</div>
+								</details>
+								<div class="spollers-popup__icon">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#payment"></use>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<form data-ajax data-dev id="order-form" class="popup__order order-popup">
+							<div class="order-popup__header">
+								<div class="order-popup__decor">
+									<picture><source srcset="img/popup/decor.webp" type="image/webp"><img src="img/popup/decor.png" alt="Decor"></picture>
+								</div>
+								<div class="order-popup__top">
+									<div class="order-popup__logo">Pizza Family</div>
+									<div class="order-popup__text">delivered to this location</div>
+								</div>
+							</div>
+							<div class="order-popup__content">
+								<div class="order-popup__line">
+									<label for="coupon" class="order-popup__label">Apply your coupon code</label>
+									<input id="coupon" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="# xxxx xxxx" class="order-popup__input input input--order">
+								</div>
+								<div class="order-popup__line">
+									<div class="order-popup__label order-popup__label--name">Cheese Pizza</div>
+									<div data-quantity class="order-popup__quantity quantity">
+										<button data-quantity-minus type="button" class="quantity__button quantity__button--minus">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#minus"></use>
+											</svg>
+										</button>
+										<div class="quantity__input">
+											<input data-quantity-max="30" data-quantity-min="1" data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-plus type="button" class="quantity__button quantity__button--plus">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#plus"></use>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<div class="order-popup__line">
+									<div class="order-popup__label">Delivery address</div>
+									<div class="order-popup__address">6801 San Vincente St, Paramount, CA 90723, USA</div>
+								</div>
+							</div>
+							<div class="order-popup__bill-details bill-details">
+								<div class="bill-details__title">Bill Details</div>
+								<div class="bill-details__body">
+									<div class="bill-details__item">
+										<div class="bill-details__line">
+											<div class="bill-details__label">Item total</div>
+											<div class="bill-details__value">$180</div>
+										</div>
+										<div class="bill-details__line">
+											<div class="bill-details__label">Delivery partner fee</div>
+											<div class="bill-details__value bill-details__value--ex">$19.00</div>
+										</div>
+									</div>
+									<div class="bill-details__item">
+										<div class="bill-details__line">
+											<div class="bill-details__label">Item Discount</div>
+											<div class="bill-details__value bill-details__value--discount">-$20</div>
+										</div>
+									</div>
+									<div class="bill-details__item">
+										<div class="bill-details__line">
+											<div class="bill-details__label">Taxes and Charges</div>
+											<div class="bill-details__value bill-details__value--taxes">$2</div>
+										</div>
+									</div>
+									<div class="bill-details__item bill-details__item--pay">
+										<div class="bill-details__line">
+											<div class="bill-details__label">To Pay</div>
+											<div class="bill-details__value bill-details__value--pay"> $182</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button data-popup="#popup-thanks" type="submit" class="order-popup__submit button button--submit">Order now</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-thanks" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__container">
+					<div class="popup__thanks-text color-text color-text--orange">Thank you for your order!</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-reservation" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__container">
+					<div class="popup__thanks-text color-text color-text--orange">Thank you for your reservation!</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20231017210151"></script>
+</body>
+
+</html>
